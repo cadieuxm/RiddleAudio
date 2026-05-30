@@ -1,0 +1,34 @@
+.nav-bg {
+    background-color: white !important;
+}
+
+h1 {
+    color: white !important;
+}
+
+.riddle-primary-bg {
+    background-color: #15acc6 !important;
+}
+
+.riddle-secondary-bg {
+    background-color: #151515 !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #151515 !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.home-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
