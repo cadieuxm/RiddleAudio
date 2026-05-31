@@ -46,5 +46,23 @@ body {
     display: flex;
     justify-content: center;
     width: 100vw;
-    height: 25vh;
+    height: 35vh;
+}
+
+.home-btn {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100vw;
+    height: 35vh;
+}
+
+.quote-btn {
+    background-color: #15acc6 !important;
+    color: black;
+    font-size: 3rem;
+    font-weight: 500;
+    font-variant: small-caps;
+    width: 50vw;
+    height: 10vh;
 }
