@@ -2,12 +2,6 @@ body {
   font-family: Andale Mono, monospace;
 }
 
-.navbar-nav.me-auto.mb-2.mb-lg-0 li a {
-    color: black;
-    font-size: 1.5rem;
-    font-weight: 500;
-    font-variant: small-caps;
-}
 .nav-img {
     border-radius: 5px;
     transition: background .3s !important;
@@ -19,15 +13,16 @@ body {
 
 h1 {
     color: white !important;
+    font-size: 5rem;
 }
 
 .riddle-primary-bg {
-    background-color: #15acc6 !important;
+    background-color: #15acc6;
     color: black;
 }
 
 .riddle-secondary-bg {
-    background-color: #151515 !important;
+    background-color: #151515;
 }
 
 body {
@@ -59,10 +54,66 @@ body {
 
 .quote-btn {
     background-color: #15acc6 !important;
+    text-align: center;
+    align-items: center;
     color: black;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 500;
     font-variant: small-caps;
     width: 50vw;
     height: 10vh;
+    line-height: 8vh;
+    transition: background .3s !important;
+}
+
+.quote-btn:hover {
+    background-color: #35cce6 !important;
+    color: black;
+}
+
+.flex {
+    display: flex;
+    gap: 5vw;
+}
+
+.abt-page-container {
+    padding: 2vh 6vw 0vh 6vw;
+    justify-content: center;
+}
+.headshot {
+    display: flex;
+    justify-content: left;
+    height: 60vh;
+}
+
+p {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+
+    .flex {
+        display: block;
+        
+        width: 100vw;
+    }
+
+    .abt-page-container {
+        justify-content: center;
+        width: 100vw;
+        text-align: center;
+    }
+    .headshot {
+        display: flex;
+        justify-content: center;
+        height: 50vh !important;
+        width: auto;
+        text-align: center;
+    }
+    h1 {
+        color: white !important;
+        font-size: 3rem;
+    }
 }
